@@ -1,0 +1,121 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - ComponentMainModule (0.0.6):
+    - ComponentModuleA (< 1.0.0)
+    - ComponentModuleACategory
+    - ComponentModuleB (< 1.0.0)
+    - ComponentModuleBCategory
+    - ComponentModuleC (< 1.0.0)
+    - ComponentModuleCCategory
+    - LogicBaseComponentModule
+  - ComponentMiddleware (0.0.4)
+  - ComponentModuleA (0.0.3):
+    - LogicBaseComponentModule
+  - ComponentModuleACategory (0.0.5):
+    - ComponentMiddleware (< 1.0.0)
+  - ComponentModuleB (0.0.4):
+    - LogicBaseComponentModule
+  - ComponentModuleBCategory (0.0.5):
+    - ComponentMiddleware (< 1.0.0)
+  - ComponentModuleC (0.0.3):
+    - LogicBaseComponentModule
+  - ComponentModuleCCategory (0.0.2):
+    - ComponentMiddleware (< 1.0.0)
+  - LogicBaseComponentModule (0.0.8):
+    - lottie-ios (~> 2.5.3)
+    - Masonry (~> 1.1.0)
+    - SDWebImage
+    - XAbstractionLibrary-UICommon
+  - lottie-ios (2.5.3)
+  - Mantle (2.1.1):
+    - Mantle/extobjc (= 2.1.1)
+  - Mantle/extobjc (2.1.1)
+  - Masonry (1.1.0)
+  - MD5Digest (1.1.0)
+  - OpenUDID (1.0.0)
+  - SDWebImage (5.9.0):
+    - SDWebImage/Core (= 5.9.0)
+  - SDWebImage/Core (5.9.0)
+  - XAbstractionLibrary-Base (0.0.19):
+    - MD5Digest
+    - OpenUDID
+  - XAbstractionLibrary-NetWork (0.0.18):
+    - AFNetworking
+    - XAbstractionLibrary-Base
+  - XAbstractionLibrary-Parse (0.0.7):
+    - Mantle (~> 2.1.0)
+    - XAbstractionLibrary-Base
+  - XAbstractionLibrary-UICommon (0.0.19):
+    - XAbstractionLibrary-NetWork
+    - XAbstractionLibrary-Parse
+    - XXNibBridge
+  - XXNibBridge (2.3.1)
+
+DEPENDENCIES:
+  - ComponentMainModule
+
+SPEC REPOS:
+  https://github.com/jiaojiaozhe/XAbstractionLibrary-Specs:
+    - ComponentMainModule
+    - ComponentMiddleware
+    - ComponentModuleA
+    - ComponentModuleACategory
+    - ComponentModuleB
+    - ComponentModuleBCategory
+    - ComponentModuleC
+    - ComponentModuleCCategory
+    - LogicBaseComponentModule
+    - XAbstractionLibrary-Base
+    - XAbstractionLibrary-NetWork
+    - XAbstractionLibrary-Parse
+    - XAbstractionLibrary-UICommon
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - AFNetworking
+    - lottie-ios
+    - Mantle
+    - Masonry
+    - MD5Digest
+    - OpenUDID
+    - SDWebImage
+    - XXNibBridge
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  ComponentMainModule: 5357fe1352505f16a848787c5afb63a06b6733b0
+  ComponentMiddleware: 3c87d5351203916b70ad995c46308846d2ba0211
+  ComponentModuleA: 64b433412dae7298c0661c7673bc56841ee9c838
+  ComponentModuleACategory: ef02d6c928be11ec9ac8986c7c87ddcd79cff9c6
+  ComponentModuleB: 367bd500c168a9586c68de685bffcf6d38100125
+  ComponentModuleBCategory: 43898767ce6cce5a3235979d0f0cad514ab9122b
+  ComponentModuleC: 862bb3f1f55584982869c59849d66cbd99ec1293
+  ComponentModuleCCategory: 68daef96c55455a47f81ceb4551029d9f876018a
+  LogicBaseComponentModule: f001d55a5dcfb11986149c9790f6e188dd72ca23
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MD5Digest: fea371215507cfcdc3c9633d02cffc7fd075ebc3
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  SDWebImage: 62ae4a18473520c67b79e9724c31a63599cc9423
+  XAbstractionLibrary-Base: d993441feddf4335783491c1bb6722b04412cf45
+  XAbstractionLibrary-NetWork: 0b9054b126191e532b2c75fe27cc52a004fc7997
+  XAbstractionLibrary-Parse: 357511923d4b686e8822950939f4dea1a3102c99
+  XAbstractionLibrary-UICommon: 7fd862d4f07896b1a8208175ba1c5d11e4e20c40
+  XXNibBridge: addb780e6db076eb2c61716aa60b176a6799b80f
+
+PODFILE CHECKSUM: 37193a3045567c4671b64f34c42c93465ba3edda
+
+COCOAPODS: 1.9.1

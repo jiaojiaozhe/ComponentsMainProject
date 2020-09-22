@@ -1,0 +1,6 @@
+framework module ComponentModuleACategory {
+  umbrella header "ComponentModuleACategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16097.2"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AITabBar">
+            <rect key="frame" x="0.0" y="0.0" width="542" height="57"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IpN-yX-82k" customClass="AITabBarItem">
+                    <rect key="frame" x="0.0" y="0.0" width="180.5" height="57"/>
+                    <color key="backgroundColor" red="0.54265696279999998" green="1" blue="0.61449820830000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q9a-x2-r84" userLabel="Tab Bar Item2" customClass="AITabBarItem">
+                    <rect key="frame" x="180.5" y="0.0" width="181" height="57"/>
+                    <color key="backgroundColor" red="0.78870828869999998" green="0.96894420709999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="whA-5u-vxX" userLabel="Tab Bar Item3" customClass="AITabBarItem">
+                    <rect key="frame" x="361.5" y="0.0" width="180.5" height="57"/>
+                    <color key="backgroundColor" red="1" green="0.92422495760000001" blue="0.85733773489999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q9a-x2-r84" firstAttribute="leading" secondItem="IpN-yX-82k" secondAttribute="trailing" id="Bei-a0-CME"/>
+                <constraint firstItem="whA-5u-vxX" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="EKy-zc-f3Z"/>
+                <constraint firstItem="whA-5u-vxX" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="IQR-C2-Gou"/>
+                <constraint firstItem="whA-5u-vxX" firstAttribute="width" secondItem="IpN-yX-82k" secondAttribute="width" id="JXO-TH-OKB"/>
+                <constraint firstItem="Q9a-x2-r84" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="NQz-wq-h3g"/>
+                <constraint firstItem="IpN-yX-82k" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="OsM-g9-h8m"/>
+                <constraint firstItem="IpN-yX-82k" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="XJN-Gd-DO0"/>
+                <constraint firstItem="Q9a-x2-r84" firstAttribute="top" secondItem="IpN-yX-82k" secondAttribute="top" id="Yoo-4O-smf"/>
+                <constraint firstItem="IpN-yX-82k" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gFM-h9-TLW"/>
+                <constraint firstItem="whA-5u-vxX" firstAttribute="leading" secondItem="Q9a-x2-r84" secondAttribute="trailing" id="ph8-5w-vci"/>
+                <constraint firstItem="whA-5u-vxX" firstAttribute="top" secondItem="IpN-yX-82k" secondAttribute="top" id="txQ-Pt-Npc"/>
+                <constraint firstItem="Q9a-x2-r84" firstAttribute="width" secondItem="IpN-yX-82k" secondAttribute="width" id="vew-uN-Lv6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="tabBarItem1" destination="IpN-yX-82k" id="0uS-dR-K9b"/>
+                <outlet property="tabBarItem2" destination="Q9a-x2-r84" id="86U-55-d2z"/>
+                <outlet property="tabBarItem3" destination="whA-5u-vxX" id="rz0-Vd-giS"/>
+            </connections>
+            <point key="canvasLocation" x="117" y="-134"/>
+        </view>
+    </objects>
+</document>

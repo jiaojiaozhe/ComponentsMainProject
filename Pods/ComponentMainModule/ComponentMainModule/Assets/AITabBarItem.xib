@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AITabBarItem">
+            <rect key="frame" x="0.0" y="0.0" width="86" height="57"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="首页" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVB-dl-Xm2">
+                    <rect key="frame" x="33" y="32.5" width="20.5" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_nor.png" translatesAutoresizingMaskIntoConstraints="NO" id="MBm-4W-qJu">
+                    <rect key="frame" x="29" y="1.5" width="28" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="MBm-4W-qJu" secondAttribute="height" multiplier="1:1" id="uLL-jY-e8d"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NcA-Ie-A4E">
+                    <rect key="frame" x="0.0" y="0.0" width="86" height="57"/>
+                    <connections>
+                        <action selector="tabBarItemClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="K3s-o4-HfS"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="MBm-4W-qJu" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-10" id="7Qs-wf-4nt">
+                    <variation key="heightClass=regular-widthClass=compact" constant="-13"/>
+                </constraint>
+                <constraint firstItem="NcA-Ie-A4E" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="AUc-8b-UvI"/>
+                <constraint firstItem="NcA-Ie-A4E" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="DFq-qK-lKr"/>
+                <constraint firstItem="CVB-dl-Xm2" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="10" id="LBE-Yi-JaJ"/>
+                <constraint firstItem="MBm-4W-qJu" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Mkj-ST-t6z"/>
+                <constraint firstItem="NcA-Ie-A4E" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="QtX-mi-XdP"/>
+                <constraint firstItem="NcA-Ie-A4E" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="XhG-aD-8ej"/>
+                <constraint firstItem="CVB-dl-Xm2" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="tJK-Mn-7EI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="itemClickBtn" destination="NcA-Ie-A4E" id="A0p-6C-E7i"/>
+                <outlet property="itemIconView" destination="MBm-4W-qJu" id="LJH-gP-BRY"/>
+                <outlet property="itemLabel" destination="CVB-dl-Xm2" id="2NN-3H-d1G"/>
+            </connections>
+            <point key="canvasLocation" x="-120" y="-638.2308845577212"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_nor.png" width="28" height="28"/>
+    </resources>
+</document>

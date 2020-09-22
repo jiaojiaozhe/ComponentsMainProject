@@ -1,0 +1,6 @@
+framework module ComponentMiddleware {
+  umbrella header "ComponentMiddleware-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+${PODS_ROOT}/Target Support Files/Pods-MainProject/Pods-MainProject-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/ComponentMainModule/ComponentMainModule.framework
+${BUILT_PRODUCTS_DIR}/ComponentMiddleware/ComponentMiddleware.framework
+${BUILT_PRODUCTS_DIR}/ComponentModuleA/ComponentModuleA.framework
+${BUILT_PRODUCTS_DIR}/ComponentModuleACategory/ComponentModuleACategory.framework
+${BUILT_PRODUCTS_DIR}/ComponentModuleB/ComponentModuleB.framework
+${BUILT_PRODUCTS_DIR}/ComponentModuleBCategory/ComponentModuleBCategory.framework
+${BUILT_PRODUCTS_DIR}/ComponentModuleC/ComponentModuleC.framework
+${BUILT_PRODUCTS_DIR}/ComponentModuleCCategory/ComponentModuleCCategory.framework
+${BUILT_PRODUCTS_DIR}/LogicBaseComponentModule/LogicBaseComponentModule.framework
+${BUILT_PRODUCTS_DIR}/MD5Digest/MD5Digest.framework
+${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/OpenUDID/OpenUDID.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/XAbstractionLibrary-Base/XAbstractionLibrary_Base.framework
+${BUILT_PRODUCTS_DIR}/XAbstractionLibrary-NetWork/XAbstractionLibrary_NetWork.framework
+${BUILT_PRODUCTS_DIR}/XAbstractionLibrary-Parse/XAbstractionLibrary_Parse.framework
+${BUILT_PRODUCTS_DIR}/XAbstractionLibrary-UICommon/XAbstractionLibrary_UICommon.framework
+${BUILT_PRODUCTS_DIR}/XXNibBridge/XXNibBridge.framework
+${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework
